@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="springmvctest2">
+    <output-path>$PROJECT_DIR$/out/artifacts/springmvctest2</output-path>
+    <root id="archive" name="springmvctest2.war">
+      <element id="artifact" artifact-name="springmvctest" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.3.10.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-4.3.10.RELEASE" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
